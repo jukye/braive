@@ -24,8 +24,8 @@ jobs:
       -
         name: go 
         run: |
-          go mod init github.com/jukye/braive
-          #go mod tidy
+          #go mod init github.com/jukye/braive
+          go mod tidy
       -
         name: Set up Git
         run: |
